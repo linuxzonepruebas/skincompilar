@@ -1,0 +1,5 @@
+#!/bin/sh
+echo
+echo      Rebooting now....
+sleep 5
+init 4 && sleep 8 && init 3
